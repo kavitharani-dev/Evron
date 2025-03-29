@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMksKZlZ2msiBMiI5izntlM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kavitharani-dev/Evron/blob/main/python1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 26,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OITLUT09SRgq",
+        "outputId": "35e8a619-4adb-4928-e2e8-13d494070094"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a  :2\n",
+            "enter b  1\n",
+            "Enter no21\n",
+            "x is not even\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=int(input(\"enter a  :\"))\n",
+        "b=int(input(\"enter b  \"))\n",
+        "a+=10\n",
+        "a-=8\n",
+        "num= int(input(\"Enter no\"))\n",
+        "if (num % 2 == 0):\n",
+        "   print(\"x is even\", x)\n",
+        "else:\n",
+        "   print(\"x is not even\")"
+      ]
+    }
+  ]
+}
